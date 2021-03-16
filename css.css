@@ -1,0 +1,41 @@
+body{
+    background-color: purple;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+}
+#nav-bar{
+    display: flex;
+    flex-direction:row;
+    overflow: hidden;
+}
+#nav-bar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+#nav-bar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+    
+.nav-link {
+    color: black;
+}
+#features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+}
+.feature{
+    color: #000;
+}
