@@ -5,16 +5,19 @@ body{
 #header{
     display: flex;
     flex-direction: row;
+    background-color: chartreuse;
 }
 #nav-bar{
     display: flex;
     flex-direction:row;
     overflow: hidden;
+    float: right;
+    padding: 1%;
 }
 #nav-bar a {
     float: right;
     display: block;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -32,10 +35,13 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     height: 125px;
     width: 80vw;
-    padding: 5px;
+    padding: 5%;
 }
 .feature{
     color: #000;
+    font-size:x-large;
+    padding: 0.5%;
 }
