@@ -36,12 +36,36 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 125px;
-    width: 80vw;
-    padding: 5%;
+    padding: 10%;
 }
 .feature{
     color: #000;
     font-size:x-large;
     padding: 0.5%;
+}
+#video{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   padding: 10%;
+}
+#cardbox{
+    display: flex;
+    flex-direction: row;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    justify-content: space-evenly;
+}
+.card{
+    display: flex 1;
+    flex-direction: row;
+    color: black;
+    border: black;
+    border-style: solid;
+    border-width: medium;
+    width: 200px;
+    height: 300px;
+    align-items: center;
 }
