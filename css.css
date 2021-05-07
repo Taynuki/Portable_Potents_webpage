@@ -72,6 +72,13 @@ body{
     height: 300px;
     align-items: center;
 }
+#email{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
 @media (max-width: 700px) {
      #navbar {   
       flex-direction: column;
