@@ -6,6 +6,10 @@ body{
     display: flex;
     flex-direction: row;
     background-color: chartreuse;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 #header-img{
     display:flex;
@@ -72,10 +76,22 @@ body{
     height: 300px;
     align-items: center;
 }
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
 #email{
     display:flex;
     align-items: center;
     flex-direction: column;
+}
+#submit{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
 }
 
 
