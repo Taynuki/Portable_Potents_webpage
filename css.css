@@ -2,6 +2,11 @@ body{
     height: 100%;
     width: 100%;
 }
+
+.grad{
+    background-image: linear-gradient(#4B39AC,#232163,#1B1849);
+}
+
 .top{
     display: flex;
     flex-direction: column;
@@ -13,7 +18,6 @@ body{
   
 }
 .center{
-    background: linear-gradient(#4B39AC,#232163,#1B1849);
     display:flex;
     flex-direction: column;
     text-align:center;
@@ -30,7 +34,6 @@ body{
     align-items: center;
     padding: 10%;
     justify-content: space-evenly;
-    border: black;
 }
 
 
