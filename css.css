@@ -50,8 +50,9 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
+    align-items: center;
     padding: 10%;
+    flex-wrap: nowrap;
 }
 .feature{
     color: #F9F8EC;
@@ -62,22 +63,26 @@ body{
 #cardbox{
     display: flex;
     flex-direction: row;
-    text-align:center;
-    justify-content: center;
+    text-align: center;
     align-items: center;
     padding: 10%;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 800px;
 }
 .card{
     display: flex 1;
     flex-direction: row;
     color:#F9F8EC;
-    border: black;
+    background-color: #05040B;
+    border: greenyellow;
     border-style: solid;
     border-width: medium;
     width: 200px;
     height: 300px;
     align-items: center;
+    padding:5px;
+    margin: 10px;
 }
 #form{
     display: flex;
