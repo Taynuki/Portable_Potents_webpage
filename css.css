@@ -86,9 +86,10 @@ body{
 #form{
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
     color: #F9F8EC;
-    padding: 15px;
+    padding: 10%;
 
 }
 #email{
@@ -96,6 +97,19 @@ body{
     align-items: center;
     flex-direction: column;
 }
+
+#name{
+  display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#number{
+  display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 #submit{
     display: flex;
     align-items: center;
