@@ -49,10 +49,13 @@ body{
 #features {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding: 10%;
     flex-wrap: wrap;
+    background-color: #05040B;
+    margin: 7%;
+    
 }
 .feature{
     color: #F9F8EC;
@@ -73,15 +76,16 @@ body{
     display: flex 1;
     flex-direction: row;
     color:#F9F8EC;
+    font-size: 30px;
     background-color: #05040B;
     border: greenyellow;
     border-style: solid;
     border-width: medium;
-    width: 200px;
-    height: 300px;
+    width: 350px;
+    height: 450px;
     align-items: center;
-    padding:5px;
-    margin: 10px;
+    padding:10px;
+    margin: 45px;
 }
 #form{
     display: flex;
@@ -90,6 +94,8 @@ body{
     align-items: center;
     color: #F9F8EC;
     padding: 10%;
+    background-color: #05040B;
+    margin: 7%;
 
 }
 #email{
@@ -97,6 +103,7 @@ body{
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
+    margin: 1%;
 }
 
 #name{
@@ -142,12 +149,12 @@ footer {
     width: 350px;
     display:flex;
     flex-direction: row;
-    justify-content: flex-end;
+  
     font-size: 20px;
     
 }
 .social-icon {
-    color: #fff;
+    color: #F9F8EC;
 }
 ul.social-icons {
     margin-top: 10px;
