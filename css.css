@@ -65,10 +65,9 @@ body{
     flex-direction: row;
     text-align: center;
     align-items: center;
-    padding: 10%;
     justify-content: center;
     flex-wrap: nowrap;
-    width: 800px;
+    width: 100%;
 }
 .card{
     display: flex 1;
