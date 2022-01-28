@@ -52,7 +52,7 @@ body{
     justify-content: center;
     align-items: center;
     padding: 10%;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 .feature{
     color: #F9F8EC;
@@ -66,7 +66,7 @@ body{
     text-align: center;
     align-items: center;
     justify-content: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     width: 100%;
 }
 .card{
