@@ -133,5 +133,7 @@ footer {
   padding: 10px;
 }
 
-
+.social{
+  align-self: flex-end;
+}
 
