@@ -54,7 +54,7 @@ body{
     padding: 10%;
     flex-wrap: wrap;
     background-color: #05040B;
-    margin: 7%;
+    margin: 8%;
     
 }
 .feature{
@@ -155,7 +155,6 @@ footer {
     width: 350px;
     display:flex;
     flex-direction: row;
-  
     font-size: 20px;
     
 }
